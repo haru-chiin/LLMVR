@@ -10,7 +10,7 @@ public class GPTManager : MonoBehaviour
     private List<ChatMessage> messages = new List<ChatMessage>();
     [SerializeField] private Whisper whisper;
     [SerializeField] private OpenAITextToSpeech toSpeech;
-    private string apiKey = "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";
+    private string apiKey = "isi dengan api anda";
 
     private void Awake() {
         openAI = new OpenAIApi(apiKey);
@@ -28,7 +28,7 @@ public class GPTManager : MonoBehaviour
              new ChatMessage { Role = "system", Content = "Jawablah dengan singkat, tidak lebih dari 500 karakter." },
              newMessage
             };
-        request.Model = "ft:gpt-4o-mini-2024-07-18:galih-wasis-wicaksono::BbPIxjOv";
+        request.Model = "isi dengan model anda / model gpt yang sudah ada";
 
         var response = await openAI.CreateChatCompletion(request);
 

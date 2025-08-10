@@ -20,7 +20,7 @@ namespace Samples.Whisper
         private bool isRecording;
         private float time;
         private OpenAIApi openai;
-        private string apiKey = "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";
+        private string apiKey = "isi dengan API yang anda punya";
 
         private void Awake()
         {

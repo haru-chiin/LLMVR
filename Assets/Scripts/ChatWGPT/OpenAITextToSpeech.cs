@@ -9,7 +9,7 @@ public class OpenAITextToSpeech : MonoBehaviour
 {
     public AudioSource audioSource;
     private OpenAIApi openAI = new OpenAIApi();
-    private string apiKey = "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"; // Ganti dengan API key OpenAI Anda
+    private string apiKey = "isi dengan api anda";
     private string openAiUrl = "https://api.openai.com/v1/audio/speech"; // Ganti dengan URL endpoint text-to-speech dari OpenAI
 
     [System.Serializable]
